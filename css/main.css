@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+  }
+  body{
+    background-color: #FAFAFA;
+  }
+  /* Mobile First*/
+  .menu{
+    background: #2c3e50;
+    width: 100%;
+    list-style: none;
+    font-size: 17px;
+  }
+  .menu ul{
+    padding: 15px 40px 35px;
+  }
+  .menu li{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+  }
+  i{
+    color: #fff;
+    float: right;
+  }
+  .background img{
+    width: 100%;
+  }
+  .third-block{
+    margin: 15px;
+  }
+  .third-block p{
+    color: #585858;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  .fourth-block{
+    margin: 15px;
+    text-align: center;
+  }
+  .fourth-block span{
+  display: block;
+  font-size: 12px;
+  color: #585858;
+  margin: 5px;
+  }
+  button, .button-card{
+    background-color: #0080FF;
+    border: none;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  /* card titles */
+  .fifth-block{
+      position: relative;
+      clear: both;
+  }
+  .card-images{
+    width: 100%;
+  }
+  .card-title{
+      float: left;
+      width: 25.3333%;
+      border: 0.8px outset silver;
+      margin-bottom: 4%;
+      margin-left: 6%;
+  }
+  .card-title h3,p{
+    padding: 0 16px;
+  }
+  .button-card{
+      margin: 2% 4%;
+  }
+  /* media query rule to card-titles */
+  @media screen and(min-width:468px){
+    .card-title{
+        float: left;
+        width: 42%;
+        border: 0.8px outset silver;
+        margin-bottom: 4%;
+        margin-left: 4%;
+    }
+  }
+  /*footer*/
+  footer{
+    background: #2c3e50;
+    clear: both;
+    width: 100%;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
