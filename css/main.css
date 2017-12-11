@@ -22,7 +22,7 @@
     display: inline-block;
     float: left;
   }
-  i{
+  .menu i{
     color: #fff;
     float: right;
   }
@@ -37,6 +37,9 @@
     font-size: 14px;
     line-height: 1.5;
     margin: 10px 0;
+  }
+.third-block i{
+    margin: 0 0 0 6px;
   }
   .fourth-block{
     margin: 15px;
@@ -89,7 +92,7 @@
         margin-left: 6%;
     }
     .third-block{
-        margin: 10x;
+        margin: 10px;
         width: 60%;
         display: inline-block;
     }
