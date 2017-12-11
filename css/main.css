@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+body{
+  background-color: #FAFAFA;
+}
+/* Mobile First*/
+.menu{
+  background: #2c3e50;
+  width: 100%;
+  list-style: none;
+  font-size: 17px;
+}
+.menu ul{
+  padding: 15px 40px 35px;
+}
+.menu li{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  float: left;
+}
+i{
+  color: #fff;
+  float: right;
+}
+.background img{
+  width: 100%;
+}
+.third-block{
+  margin: 15px;
+}
+.third-block p{
+  color: #585858;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+.fourth-block{
+  margin: 15px;
+  text-align: center;
+}
+.fourth-block span{
+display: block;
+font-size: 12px;
+color: #585858;
+margin: 5px;
+}
+button{
+  background-color: #0080FF;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  border-radius: 5px;
+}
+footer{
+  background: #2c3e50;
+  width: 100%;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
