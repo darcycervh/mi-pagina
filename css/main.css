@@ -56,20 +56,21 @@
     border-radius: 5px;
   }
   /* card titles */
+  
   .fifth-block{
       position: relative;
       clear: both;
   }
   .card-images{
     width: 100%;
-  }
+  }/*
   .card-title{
       float: left;
       width: 25.3333%;
       border: 0.8px outset silver;
       margin-bottom: 4%;
       margin-left: 6%;
-  }
+  }*/
   .card-title h3,p{
     padding: 0 16px;
   }
@@ -77,15 +78,34 @@
       margin: 2% 4%;
   }
   /* media query rule to card-titles */
-  @media screen and(min-width:468px){
+  @media (min-width:480px){
     .card-title{
         float: left;
-        width: 42%;
+        width: 80%;
         border: 0.8px outset silver;
         margin-bottom: 4%;
-        margin-left: 4%;
+        margin-left: 6%;
     }
   }
+  @media (min-width:768px){
+    .card-title{
+        float: left;
+        width: 30%;
+        border: 0.8px outset silver;
+        margin-bottom: 4%;
+        margin-left: 6%;
+    }
+  }
+  @media (min-width:1024px){
+    .card-title{
+        float: left;
+        width: 25.3333%;
+        border: 0.8px outset silver;
+        margin-bottom: 4%;
+        margin-left: 6%;
+    }
+  }
+
   /*footer*/
   footer{
     background: #2c3e50;
