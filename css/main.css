@@ -63,14 +63,7 @@
   }
   .card-images{
     width: 100%;
-  }/*
-  .card-title{
-      float: left;
-      width: 25.3333%;
-      border: 0.8px outset silver;
-      margin-bottom: 4%;
-      margin-left: 6%;
-  }*/
+  }
   .card-title h3,p{
     padding: 0 16px;
   }
@@ -95,6 +88,18 @@
         margin-bottom: 4%;
         margin-left: 6%;
     }
+    .third-block{
+        margin: 10x;
+        width: 60%;
+        display: inline-block;
+    }
+    .fourth-block{
+        text-align: center;
+        width: 30%;
+        display: inline-block;
+        float: right;
+        margin-top: 3%;
+    }
   }
   @media (min-width:1024px){
     .card-title{
@@ -104,7 +109,21 @@
         margin-bottom: 4%;
         margin-left: 6%;
     }
+    .third-block{
+        margin: 10x;
+        width: 60%;
+        display: inline-block;
+    }
+    .fourth-block{
+        text-align: center;
+        width: 30%;
+        display: inline-block;
+        float: right;
+        margin-top: 3%;
+    }
   }
+  /*media query to third and forth block*/
+
 
   /*footer*/
   footer{
